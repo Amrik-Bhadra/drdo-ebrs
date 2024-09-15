@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="../../public/assets/images/DRDO-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <script src="../../functions/Babel.js"></script>
+    <script src="../../functions/React.js"></script>
+    <script src="../../functions/ReactDOM.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="h-screen w-screen relative bg-gray-100">
+        <aside id="sidenavbar" class="absolute md:w-[18%] w-[60%] h-full bg-white shadow-md"></aside>
+        <section id="main-content" class="ml-[60%] md:ml-[18%] px-8 py-8 max-h-screen h-full overflow-y-auto">
+            
+        </section>
+    </main>
+
+    
+    <script type="text/babel" src="../../public/components/SideNavbar.js"></script>
+    <script type="text/babel">
+        ReactDOM.createRoot(document.getElementById("sidenavbar")).render(<SideNavbar />);
+    </script>
+
+    <script src="../../public/js/script.js"></script>
+
+</body>
+</html>
